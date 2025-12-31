@@ -13,37 +13,37 @@ const questions = [
   {
     id: 1,
     img: q1Img,
-    textKey: 'q1_text',
-    btnKey: 'q1_btn',
-    sub: "Gamification"
+    mainKey: 'q1_main',
+    subKey: 'q1_sub',
+    btnKey: 'q1_btn'
   },
   {
     id: 2,
     img: q2Img,
-    textKey: 'q2_text',
-    btnKey: 'q2_btn',
-    sub: "AI Empowerment"
+    mainKey: 'q2_main',
+    subKey: 'q2_sub',
+    btnKey: 'q2_btn'
   },
   {
     id: 3,
     img: q3Img,
-    textKey: 'q3_text',
-    btnKey: 'q3_btn',
-    sub: "Expertise"
+    mainKey: 'q3_main',
+    subKey: 'q3_sub',
+    btnKey: 'q3_btn'
   },
   {
     id: 4,
     img: q4Img,
-    textKey: 'q4_text',
-    btnKey: 'q4_btn',
-    sub: "Sales Evolution"
+    mainKey: 'q4_main',
+    subKey: 'q4_sub',
+    btnKey: 'q4_btn'
   },
   {
     id: 5,
     img: q5Img,
-    textKey: 'q5_text',
-    btnKey: 'q5_btn',
-    sub: "Kindred Spirits"
+    mainKey: 'q5_main',
+    subKey: 'q5_sub',
+    btnKey: 'q5_btn'
   }
 ];
 
@@ -62,8 +62,8 @@ const ResonanceFlow = ({ onComplete }) => {
   const currentQ = questions[currentIndex];
 
   return (
-    <div className="h-screen w-full relative flex items-center justify-center overflow-hidden bg-black">
-      {/* Background Image with Overlay */}
+    <div className="relative h-screen w-full overflow-hidden bg-black">
+      {/* Background Image with Gradient Overlay */}
       <AnimatePresence mode='wait'>
          <motion.div 
             key={currentQ.id}
@@ -73,11 +73,13 @@ const ResonanceFlow = ({ onComplete }) => {
             transition={{ duration: 0.8 }}
             className="absolute inset-0 z-0"
          >
-             <div className="absolute inset-0 bg-black/60 z-10" /> {/* Dark overlay for text readability */}
+             {/* Gradient Layer */}
+             <div className="absolute inset-0 bg-black/70 z-10" />
+             
              <img 
                src={currentQ.img} 
                alt="" 
-               className="w-full h-full object-cover"
+               className="absolute inset-0 w-full h-full object-cover z-0"
              />
          </motion.div>
       </AnimatePresence>
@@ -85,23 +87,27 @@ const ResonanceFlow = ({ onComplete }) => {
       <AnimatePresence mode='wait'>
         <motion.div
           key={currentIndex}
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -50 }}
-          transition={{ duration: 0.5 }}
-          className="max-w-md w-full px-6 text-center z-20 relative"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 1.05 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="absolute inset-0 z-20 flex flex-col justify-center items-center px-6 h-full"
         >
-          <div className="text-[#FF9900] font-bold tracking-widest uppercase mb-4 text-sm">
-            {currentQ.sub}
-          </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 leading-tight">
-            {t(currentQ.textKey)}
+          {/* Top Line (Old Main) - Smaller */}
+          <h3 className="text-lg text-blue-200/90 font-medium mb-6 text-center">
+            {t(currentQ.mainKey)}
+          </h3>
+          
+          {/* Bottom Line (Old Sub) - Larger & Bold */}
+          <h2 className="text-2xl md:text-3xl font-bold text-white leading-snug text-center drop-shadow-lg mb-12 max-w-2xl">
+            {t(currentQ.subKey)}
           </h2>
+
           <button
             onClick={handleNext}
-            className="group relative inline-flex items-center justify-center px-8 py-3 text-lg font-medium text-[#1E5FA8] bg-white rounded-full overflow-hidden transition-all hover:bg-[#FF9900] hover:text-white"
+            className="px-10 py-3 bg-white/10 backdrop-blur-md border border-white/30 rounded-full text-white font-bold text-lg tracking-wide hover:bg-white/20 active:scale-95 transition-all"
           >
-            <span className="relative z-10">{t(currentQ.btnKey)}</span>
+            {t(currentQ.btnKey)}
           </button>
         </motion.div>
       </AnimatePresence>
