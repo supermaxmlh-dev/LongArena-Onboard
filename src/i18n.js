@@ -45,7 +45,7 @@ const resources = {
       "q4_btn": "Take Command",
       
       "q5_main": "We don't predict the future. We rehearse it.",
-      "q5_sub": "If you believe in this too, welcome to Long Arena. Here are the kindred spirits you seek.",
+      "q5_sub": "Are you also looking for kindred spirits to break the rules of the old world?",
       "q5_btn": "Open Base",
 
       // Secret Base
@@ -106,7 +106,7 @@ const resources = {
       "q4_btn": "接管指挥权",
       
       "q5_main": "我们不预测未来，我们彩排未来。",
-      "q5_sub": "如果你也相信这一切，欢迎来到龙之竞技场。这里有你寻找的同类。",
+      "q5_sub": "你是否也在寻找这群志同道合的人，去打破旧世界的规则？",
       "q5_btn": "开启基地",
 
       // Secret Base
