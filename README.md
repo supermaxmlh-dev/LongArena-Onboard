@@ -13,26 +13,35 @@
 - **部署**: Vercel (Planned/In Progress)
 - **代码管理**: GitHub
 
-## 3. 当前开发进度 (Current Status - Day 2)
+## 3. 当前开发进度 (Current Status - Day 5)
 ### ✅ 已完成功能 (Completed)
-- **项目初始化**: 环境搭建完成，Tailwind 配置完成。
-- **国际化 (i18n)**: 实现了中英文无缝切换，右上角有切换按钮。
-- **数字前台 (Digital Reception)**: 
-  - 首页重构为卡片式布局 (Card UI)。
-  - **核心功能**: 
-    - 公司地址展示 + [一键复制] + [唤起地图]。
-    - Wi-Fi 账号密码 + [一键复制密码]。
-    - 紧急联系人卡片。
-  - **导航栏**: 简化版导航，专注于访客体验。
+**Day 1-2: 基础架构 & 数字前台**
+- 项目初始化，Tailwind 配置。
+- 国际化 (i18n) 支持。
+- 首页数字前台 (地址、WiFi、联系人)。
+
+**Day 3: 可视化路书 (Location Guide)**
+- 完成 `LocationGuide` 组件。
+- 实现地铁、打车、自驾三种方式的切换指引。
+- 解决“最后100米”迷路痛点。
+
+**Day 4: 灵魂拷问流 (Resonance Flow)**
+- 完成 `ResonanceFlow` 组件。
+- 实现 5 个“灵魂拷问”卡片滑动交互。
+- 配合“口袋BP”概念，植入核心价值观。
+
+**Day 5: 秘密基地 & 视频中心 (Secret Base & Video Hub)**
+- 完成 `SecretBase` 组件，整合原有功能。
+- 新增视频展示区 (SalesNail 战训一体、客户案例等)。
+- 优化文案，回归“叛逆”风格 (Rebellious Tone)。
+- 解决 Git Push 权限问题，打通 GitHub 部署流。
 
 ### 🚧 待解决问题 (Blockers)
-- **部署失败**: 本地运行正常，但 Git Push 到 GitHub 时遇到权限或配置错误，导致 Vercel 无法更新。计划寻求同事协助解决。
+- 暂无阻塞性问题。
 
 ## 4. 下一步计划 (Roadmap)
-- **Day 3**: 开发“可视化路书” (Visual Guide)。
-  - 功能：时间轴形式展示从地铁/下车点到公司大门的图文指引。
-  - 目的：解决“最后100米”找不到大门的痛点。
-- **Day 4**: 合作伙伴“口袋BP” (滑动式介绍卡片)。
+- **Day 6**: 进一步优化 UI 细节与动画效果。
+- **Future**: 接入后端 CMS 或更多动态内容。
 
 ## 5. 目录结构说明 (Directory Structure)
 ```
