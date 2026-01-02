@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 // Import images
-import q1Img from '../assets/images/q1.jpeg';
-import q2Img from '../assets/images/q2.jpeg';
-import q3Img from '../assets/images/q3.jpeg';
-import q4Img from '../assets/images/q4.jpeg';
-import q5Img from '../assets/images/q5.jpeg';
+import q1Img from '../assets/images/q1.jpg';
+import q2Img from '../assets/images/q2.jpg';
+import q3Img from '../assets/images/q3.jpg';
+import q4Img from '../assets/images/q4.jpg';
+import q5Img from '../assets/images/q5.jpg';
 
 const questions = [
   {
@@ -80,6 +80,8 @@ const ResonanceFlow = ({ onComplete }) => {
                src={currentQ.img} 
                alt="" 
                className="absolute inset-0 w-full h-full object-cover z-0"
+               fetchPriority={currentIndex === 0 ? "high" : undefined}
+               loading={currentIndex === 0 ? "eager" : undefined}
              />
          </motion.div>
       </AnimatePresence>

@@ -28,25 +28,25 @@ const resources = {
       "toast_copied": "Copied",
       
       // Soul Questions
-      "q1_main": "Would you learn to swim without a pool?",
-      "q1_sub": "If business is a life-or-death battle, why is our training still just waving hands on the shore?",
-      "q1_btn": "Dive In",
+      "q1_main": "Don't pay for failure with real capital.",
+      "q1_sub": "Before crossing the stormy river, why not drown and be reborn 100 times in our 'Virtual Pool'?",
+      "q1_btn": "Start Simulation",
       
-      "q2_main": "Bare hands vs. Full Armor?",
-      "q2_sub": "AI should not replace humans, but be your exoskeleton. Let everyone possess the firepower of an army.",
-      "q2_btn": "Suit Up",
+      "q2_main": "Admit it. Biological intelligence has hit its ceiling.",
+      "q2_sub": "But with an AI Exoskeleton, you become infinite. Give every employee the firepower of an expert instantly.",
+      "q2_btn": "Equip AI",
       
-      "q3_main": "When a master leaves, must their wisdom vanish?",
-      "q3_sub": "True industry wisdom should not be legend, but extracted, encoded, and become digital assets that never wear out.",
-      "q3_btn": "Preserve It",
+      "q3_main": "The greatest waste is wisdom walking out the door.",
+      "q3_sub": "We extract, encode, and seal it. Flesh ages, but corporate wisdom should be immortal.",
+      "q3_btn": "Digitize Wisdom",
       
-      "q4_main": "Future Sales: Repeater or Commander?",
-      "q4_sub": "Say goodbye to rote memorization. The strong of the future are strategists commanding legions of AI Agents.",
+      "q4_main": "Top sales is no longer about talk. It's about strategy.",
+      "q4_sub": "Don't be a script-reciting robot. Be the strategist commanding an army of AI Agents.",
       "q4_btn": "Take Command",
       
-      "q5_main": "We don't predict the future. We rehearse it.",
-      "q5_sub": "Are you also looking for kindred spirits to break the rules of the old world?",
-      "q5_btn": "Open Base",
+      "q5_main": "We don't predict the future. We simulate it.",
+      "q5_sub": "Are you also looking for the tribe that dares to break the old world's rules?",
+      "q5_btn": "Enter Arena",
 
       // Secret Base
       "secret_base_welcome": "Welcome to Long Arena",
@@ -89,25 +89,25 @@ const resources = {
       "toast_copied": "已复制",
       
       // Soul Questions
-      "q1_main": "你见过没有游泳池的游泳课吗？",
-      "q1_sub": "如果商业是一场生死之战，为什么我们的训练还停留在岸上比划？",
-      "q1_btn": "跳入泳池",
+      "q1_main": "不要用真金白银，去买一次失败的教训。",
+      "q1_sub": "在横渡长江之前，为什么不先在我们的“虚拟游泳池”里，经历 100 次溺水与重生？",
+      "q1_btn": "开始模拟 / Start Simulation",
       
-      "q2_main": "赤手空拳，如何赢过全副武装？",
-      "q2_sub": "AI不应取代人类，而是你的外骨骼。让每个人都拥有一支军队的火力。",
-      "q2_btn": "全副武装",
+      "q2_main": "承认吧，人类的脑力已经到达了生物极限。",
+      "q2_sub": "但加上 AI 外骨骼，你就是无限。让每一个普通员工，瞬间拥有专家的火力。",
+      "q2_btn": "装备外骨骼 / Equip AI",
       
-      "q3_main": "当销冠离职，他的智慧只能随风消散吗？",
-      "q3_sub": "真正的行业心法不该是传说，而应被提取、编码，成为永不磨损的数字资产。",
-      "q3_btn": "永久封存",
+      "q3_main": "企业最大的浪费，是经验随着离职单一起被带走。",
+      "q3_sub": "我们将智慧提取、编码、封装。肉体凡胎会老去，但企业的智慧应当永生。",
+      "q3_btn": "固化智慧 / Digitize Wisdom",
       
-      "q4_main": "未来的销售：是复读机，还是指挥官？",
-      "q4_sub": "告别死记硬背。未来的强者，是指挥 AI Agent 军团运筹帷幄的战略家。",
-      "q4_btn": "接管指挥权",
+      "q4_main": "顶级销售，从来不只靠嘴皮子，而靠脑子。",
+      "q4_sub": "不需要背话术的复读机，做那个指挥千军万马 AI Agent 的战略家。",
+      "q4_btn": "接管战场 / Take Command",
       
-      "q5_main": "我们不预测未来，我们彩排未来。",
+      "q5_main": "我们不预测未来，我们演绎未来。",
       "q5_sub": "你是否也在寻找这群志同道合的人，去打破旧世界的规则？",
-      "q5_btn": "开启基地",
+      "q5_btn": "开启新世界 / Enter Arena",
 
       // Secret Base
       "secret_base_welcome": "欢迎来到龙之竞技场",
