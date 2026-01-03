@@ -12,6 +12,7 @@
 - **多语言**: i18next + react-i18next (支持中/英切换)
 - **部署**: Vercel (Planned/In Progress)
 - **代码管理**: GitHub
+- **数据分析**: Microsoft Clarity
 
 ## 3. 当前开发进度 (Current Status - Day 5)
 ### ✅ 已完成功能 (Completed)
