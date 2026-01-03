@@ -36,6 +36,10 @@
 - 优化文案，回归“叛逆”风格 (Rebellious Tone)。
 - 解决 Git Push 权限问题，打通 GitHub 部署流。
 
+**Day 7: 快速通道 & 视觉指引 (Fast Pass & Visual Guide)**
+- 实现“老用户快速通道” (Fast Pass)：已完成问答的用户自动跳过 Intro，直达秘密基地。
+- 升级路书指引：新增商场大门实景图 (Visual Entrance Guide)，解决“瑞幸咖啡旁”入口难找的问题。
+
 ### 🚧 待解决问题 (Blockers)
 - 暂无阻塞性问题。
 

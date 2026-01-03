@@ -47,7 +47,17 @@ const LocationGuide = ({ onClose }) => {
              {activeTab === 'public' && (
                <div className="animate-in fade-in duration-300">
                   <div className="text-[#1E5FA8] font-bold mb-2">{t('tab_public')}</div>
-                  <p className="text-gray-600 leading-relaxed">{t('public_guide')}</p>
+                  <p className="text-gray-600 leading-relaxed mb-4">{t('public_guide')}</p>
+                  
+                  {/* Entrance Guide */}
+                  <div className="bg-blue-50 p-3 rounded-lg border border-blue-100">
+                    <p className="text-sm text-[#1E5FA8] font-medium mb-2">{t('entrance_tip')}</p>
+                    <img 
+                      src="/entrance.jpg" 
+                      alt="Entrance Guide" 
+                      className="w-full h-auto rounded-lg border border-gray-200 shadow-sm"
+                    />
+                  </div>
                </div>
              )}
              {activeTab === 'taxi' && (

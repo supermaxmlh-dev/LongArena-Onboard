@@ -5,9 +5,14 @@ import SecretBase from './components/SecretBase';
 
 function App() {
   const { t, i18n } = useTranslation();
-  const [viewState, setViewState] = useState('questions'); // Start with questions
+  // Check localStorage for Fast Pass
+  const [viewState, setViewState] = useState(() => {
+    const hasVisited = localStorage.getItem('has_visited_arena');
+    return hasVisited ? 'base' : 'questions';
+  });
 
   const handleFlowComplete = () => {
+    localStorage.setItem('has_visited_arena', 'true');
     setViewState('base');
   };
 

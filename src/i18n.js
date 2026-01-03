@@ -55,6 +55,7 @@ const resources = {
       "tab_taxi": "Taxi",
       "tab_drive": "Self-driving",
       "public_guide": "Take Metro Line 1/2/8 to [People's Square Station], Exit 19. Walk 200m to Agile International Plaza.",
+      "entrance_tip": "💡Visual Guide: Enter via the mall gate next to Luckin Coffee.",
       "taxi_guide": "Destination: Agile International Plaza, Xizang Middle Road, Huangpu District, Shanghai.",
       "drive_guide": "Underground parking entrance at [Changsha Road]. Parking fee: 15 RMB/hour.",
       
@@ -116,6 +117,7 @@ const resources = {
       "tab_taxi": "打车",
       "tab_drive": "自驾",
       "public_guide": "地铁1号线/2号线/8号线 [人民广场站] 下车，19号口出，步行200米即达雅居乐国际广场。",
+      "entrance_tip": "💡以此图为准：请从瑞幸咖啡（Luckin Coffee）旁边的商场大门进入。",
       "taxi_guide": "定位至：上海市黄浦区西藏中路 雅居乐国际广场 (Agile International Plaza)。",
       "drive_guide": "地下停车场入口位于[长沙路]，停车费 15元/小时。",
       
